@@ -1,8 +1,7 @@
 ##-----------------------------------------------------------##
 ## READ DATA FROM THE ELECTRIC POWER CONSUMPTION DATA SET
 ##-----------------------------------------------------------##
-    
-  elec_pow_con <- read.table("household_power_consumption.txt", sep=";", na.strings = "?", header=T, stringsAsFactors = F)
+    elec_pow_con <- read.table("household_power_consumption.txt", sep=";", na.strings = "?", header=T, stringsAsFactors = F)
 
 ##-----------------------------------------------------------##
 ## PREPARE AND CLEAN DATA
